@@ -33,5 +33,14 @@
         android:text="Karen Test"
         android:layout_marginTop="70dp"
 
-        />
+        android:id="@+id/" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bilal Test"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="38dp" />
 </RelativeLayout>
