@@ -1,6 +1,7 @@
 package com.example.bilalsattar.csumbeacon;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -59,8 +60,11 @@ public class MainActivity extends Activity {
             //Intent i = new Intent(this, login.activity);
             //startavitivty(i);
             //go to login activity immediately after
+
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
+
+
 
             beaconManager = new BeaconManager(this);
             beaconManager.setRangingListener(new BeaconManager.RangingListener() {
