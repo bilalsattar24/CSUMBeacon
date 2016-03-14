@@ -2,11 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:id="@+id/infocard">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INFO "
         android:id="@+id/textView1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contextcard" />
+
+
 </LinearLayout><!-- From: file:/Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/res/layout/infocard.xml -->

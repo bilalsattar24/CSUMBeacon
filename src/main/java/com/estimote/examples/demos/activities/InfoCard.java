@@ -2,10 +2,12 @@ package com.estimote.examples.demos.activities;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -59,6 +61,21 @@ public class InfoCard extends BaseActivity {
         adapter = new EddystonesListAdapter(this);
 
         beaconManager = new BeaconManager(this);
+
+        ImageView img = (ImageView) findViewById(R.id.contextcard);
+
+        if(passedMac.equals("[FE:55:68:D6:08:36]")){
+            img.setImageResource(R.drawable.bit);
+            main.append(" PURP");
+        }
+        else if(passedMac.equals("[F1:6C:09:05:AC:8E]")){
+            img.setImageResource(R.drawable.dc);
+            main.append(" BABY BLUE");
+        }
+        else{
+            System.out.println("Test123 Failed to change image");
+        }
+
     }
 
     @Override protected void onDestroy() {

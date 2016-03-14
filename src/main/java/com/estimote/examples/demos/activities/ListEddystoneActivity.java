@@ -39,12 +39,10 @@ public class ListEddystoneActivity extends BaseActivity {
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
+    setContentView(R.layout.scanning);
     // Configure device list.
     adapter = new EddystonesListAdapter(this);
-    ListView list = (ListView) findViewById(R.id.device_list);
-    list.setAdapter(adapter);
-    list.setOnItemClickListener(createOnItemClickListener());
+
 
     beaconManager = new BeaconManager(this);
   }
