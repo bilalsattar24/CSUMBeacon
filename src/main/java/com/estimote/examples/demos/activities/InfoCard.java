@@ -90,7 +90,7 @@ public class InfoCard extends BaseActivity {
                 adapter.replaceWith(eddystones);
                 System.out.println("Test123 " + eddystones.get(0).macAddress);
 
-                if (eddystones.get(0).macAddress.toString()!= null && eddystones.get(0).macAddress.toString() != passedMac) {
+                if (eddystones.get(0).macAddress.toString()!= null && !(eddystones.get(0).macAddress.toString().equals(passedMac))){
 
                     System.out.println("Test123 TRUE" + eddystones.get(0).macAddress);
                     System.out.println("Test123" + eddystones.get(0).macAddress.toString());
