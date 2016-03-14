@@ -40,14 +40,14 @@ MERGED from [com.android.support:support-v4:23.1.1] /Users/michaelsarmiento/Docu
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:26:7-43
 	android:name
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:24:7-39
-activity#com.estimote.examples.demos.activities.AllDemosActivity
+activity#com.estimote.examples.demos.activities.MainActivity
 ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:28:5-36:16
 	android:screenOrientation
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:31:9-45
 	android:label
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:30:9-32
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:29:9-52
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:29:9-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:32:7-35:23
 action#android.intent.action.MAIN

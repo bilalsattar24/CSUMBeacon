@@ -34,7 +34,7 @@
         android:label="Ottours"
         android:theme="@style/EstimoteTheme" >
         <activity
-            android:name="com.estimote.examples.demos.activities.AllDemosActivity"
+            android:name="com.estimote.examples.demos.activities.MainActivity"
             android:label="Ottours"
             android:screenOrientation="portrait" >
             <intent-filter>

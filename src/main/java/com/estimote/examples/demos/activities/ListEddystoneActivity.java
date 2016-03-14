@@ -94,7 +94,7 @@ public class ListEddystoneActivity extends BaseActivity {
           toast.show();
 
 
-          //goToActivity(eddystones.get(0).macAddress.toString());
+          goToActivity(eddystones.get(0).macAddress.toString());
 
         } else {
           System.out.println("Test123 FALSE" + eddystones.get(0).macAddress);
