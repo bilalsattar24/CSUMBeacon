@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.estimote.examples.demos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <!--
+  You do not longer need to declare those permissions. Since SDK declares them,
+  there is no need for you to add those since SDK's AndroidManifest.xml will be merged
+  with app's AndroidManifest.xml.
+
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+    -->
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <!-- Declaration that this app is usable on phones with Bluetooth Low Energy. -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <!-- Needed for Bluetooth low energy scanning. -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- Needed for Bluetooth scanning on Android M and above. -->
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed for Estimote Cloud. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.estimote.examples.demos.DemosApplication"
+        android:label="Ottours"
+        android:theme="@style/EstimoteTheme" >
+        <activity
+            android:name="com.estimote.examples.demos.activities.AllDemosActivity"
+            android:label="Ottours"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.estimote.examples.demos.activities.ListBeaconsActivity"
+            android:label="Select Beacon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.ListEddystoneActivity"
+            android:label="Select Eddystone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.ListNearablesActivity"
+            android:label="Select Beacon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.DistanceBeaconActivity"
+            android:label="Distance Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.NotifyDemoActivity"
+            android:label="Notify Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.CharacteristicsDemoActivity"
+            android:label="Characteristics Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.UpdateDemoActivity"
+            android:label="Update Firmware Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.EddystoneDemoActivity"
+            android:label="Eddystone Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.NearablesDemoActivity"
+            android:label="Nearables Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.SensorsActivity"
+            android:label="Sensors Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.ConfigurableDevicesListActivity"
+            android:label="Configurable devices list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.ConfigureDeviceActivity"
+            android:label="Configure Device Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.InfoCard"
+            android:label="Info Card"
+            android:screenOrientation="portrait" />
+        <!--
+    There is no need any longer to declare BeaconService. It is declared in SDK's AndroidManifest.xml
+    and it will be merged to your app's AndroidManifest.xml.
+
+    <service android:name="com.estimote.sdk.service.BeaconService"
+             android:exported="false"/>
+        -->
+        <service
+            android:name="com.estimote.sdk.service.BeaconService"
+            android:exported="false" />
+        <service android:name="com.estimote.sdk.repackaged.dfu_v0_6_1.no.nordicsemi.android.dfu.DfuBaseService" />
+
+        <activity
+            android:name="com.estimote.sdk.DefaultRequirementsCheckerCallback$Activity"
+            android:theme="@style/Theme.Transparent" />
+
+        <receiver android:name="com.estimote.sdk.service.BeaconService$ScanAlarmBroadcastReceiver" />
+
+        <service
+            android:name="com.estimote.sdk.connection.internal.DeviceConnectionProviderService"
+            android:exported="false" />
+    </application>
+
+</manifest>
