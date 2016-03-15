@@ -448,12 +448,13 @@ int drawable dc 0x7f02004a
 int drawable dot 0x7f02004b
 int drawable greyottourlogo 0x7f02004c
 int drawable ic_action_navigation_arrow_back 0x7f02004d
-int drawable notification_template_icon_bg 0x7f020053
+int drawable notification_template_icon_bg 0x7f020054
 int drawable ottours 0x7f02004e
 int drawable ottoursallgrey 0x7f02004f
 int drawable scanning 0x7f020050
-int drawable stickers_unknown 0x7f020051
-int drawable tour 0x7f020052
+int drawable sports 0x7f020051
+int drawable stickers_unknown 0x7f020052
+int drawable tour 0x7f020053
 int id action0 0x7f0c0077
 int id action_bar 0x7f0c0041
 int id action_bar_activity_content 0x7f0c0000

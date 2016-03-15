@@ -1600,12 +1600,13 @@ containing a value of this type.
         public static final int dot=0x7f02004b;
         public static final int greyottourlogo=0x7f02004c;
         public static final int ic_action_navigation_arrow_back=0x7f02004d;
-        public static final int notification_template_icon_bg=0x7f020053;
+        public static final int notification_template_icon_bg=0x7f020054;
         public static final int ottours=0x7f02004e;
         public static final int ottoursallgrey=0x7f02004f;
         public static final int scanning=0x7f020050;
-        public static final int stickers_unknown=0x7f020051;
-        public static final int tour=0x7f020052;
+        public static final int sports=0x7f020051;
+        public static final int stickers_unknown=0x7f020052;
+        public static final int tour=0x7f020053;
     }
     public static final class id {
         public static final int action0=0x7f0c0077;

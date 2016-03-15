@@ -49,6 +49,7 @@ public class InfoCard extends BaseActivity {
 
         Bundle passedExtras = getIntent().getExtras();
 
+
         String mac = passedExtras.getString("mac");
 
         passedMac = mac;
@@ -71,6 +72,10 @@ public class InfoCard extends BaseActivity {
         else if(passedMac.equals("[F1:6C:09:05:AC:8E]")){
             img.setImageResource(R.drawable.dc);
             main.append(" BABY BLUE");
+        }
+        else if(passedMac.equals("[F7:E2:16:76:24:59]")){
+            img.setImageResource(R.drawable.sports);
+            main.append(" MINT");
         }
         else{
             System.out.println("Test123 Failed to change image");
