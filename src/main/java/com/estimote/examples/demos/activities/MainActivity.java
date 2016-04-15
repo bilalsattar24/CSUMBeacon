@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
+
 import com.estimote.examples.demos.R;
 
 /**
@@ -22,8 +24,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //toolbar.setTitle(getTitle());
 
     View tourButton = findViewById(R.id.tour);
+    View customButton =  findViewById(R.id.customtour);
+    customButton.setOnClickListener(this);
     tourButton.setOnClickListener(this);
     tourButton.bringToFront();
+    customButton.bringToFront();
 
 
   }
@@ -38,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   public void onClick(View v) {
     if (v.getId() == R.id.tour) {
       Intent I = new Intent(getApplicationContext(), ListEddystoneActivity.class);
+      startActivity(I);
+    }else if(v.getId() == R.id.customtour)
+    {
+      Intent I = new Intent(getApplicationContext(), DisplayCardActivity.class);
       startActivity(I);
     }
 

@@ -77,7 +77,7 @@ public class InfoCard extends BaseActivity {
             img.setImageResource(R.drawable.sports);
             main.append(" MINT");
         }
-        else{
+        else{//all others here
             System.out.println("Test123 Failed to change image");
         }
 
