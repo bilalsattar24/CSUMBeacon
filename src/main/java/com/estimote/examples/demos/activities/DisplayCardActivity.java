@@ -25,51 +25,44 @@ import java.net.URL;
  */
 public class DisplayCardActivity extends AppCompatActivity {
     //public static URL kobe;
-    public static String url = "http://vignette4.wikia.nocookie.net/modernfamily/images/d/d2/Kobe_bryant_con_competencia.jpg/revision/latest?cb=20140107103249";
+    private String url;//Used to create image// = "http://vignette4.wikia.nocookie.net/modernfamily/images/d/d2/Kobe_bryant_con_competencia.jpg/revision/latest?cb=20140107103249";
     @Override protected void onCreate(Bundle savedInstanceState){
         Log.d("test", "entered displaycard");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.display_card);
+        //access url imageview ID from bundled data
+        url = savedInstanceState.getString("url");
+        //int id = savedInstanceState.getInt("viewId");
 
-       //String url = "http://vignette4.wikia.nocookie.net/modernfamily/images/d/d2/Kobe_bryant_con_competencia.jpg/revision/latest?cb=20140107103249";
-
-        //View v = findViewById(R.id.imageView2);
-
-        //display(url,v);
-        ImageView image = (ImageView) findViewById(R.id.imageView2);
-        DownloadImageTask task = new DownloadImageTask(getApplicationContext(),image);
-        task.execute("test");
-
-
+        ImageView imageView = (ImageView) findViewById(R.id.imageView2);
+        DownloadImageTask task = new DownloadImageTask(getApplicationContext(),imageView);
+        task.execute(url);
 
     }
 
-    public static void display(String url, View v)
-    {
 
-
-    }
 
     public class DownloadImageTask extends AsyncTask<String,Void,Bitmap> {
         Context context;
-        ImageView bmImage;
+        ImageView bmImageView;
         AlertDialog alertDialog;
 
-        public DownloadImageTask(Context cxt, ImageView bmImage2){
+
+        public DownloadImageTask(Context cxt, ImageView bmImageView){
             context = cxt;
-            this.bmImage = bmImage2;
+            this.bmImageView = bmImageView;
         }
 
 
         protected Bitmap doInBackground(String... params) {
-
-            String url = "http://vignette4.wikia.nocookie.net/modernfamily/images/d/d2/Kobe_bryant_con_competencia.jpg/revision/latest?cb=20140107103249";
+            url = params[0];
+            //String url = "http://vignette4.wikia.nocookie.net/modernfamily/images/d/d2/Kobe_bryant_con_competencia.jpg/revision/latest?cb=20140107103249";
             Bitmap bmp = null;
-            ImageView image = (ImageView) findViewById(R.id.imageView2);
+            //ImageView image = (ImageView) findViewById(R.id.imageView2);
             try{
-                URL kobe = new URL(url);
+                URL image = new URL(url);
                 try{
-                    bmp = BitmapFactory.decodeStream(kobe.openConnection().getInputStream());
+                    bmp = BitmapFactory.decodeStream(image.openConnection().getInputStream());
 
                 }catch(IOException io){
                 }
@@ -88,7 +81,7 @@ public class DisplayCardActivity extends AppCompatActivity {
 
 
         protected void onPostExecute(Bitmap result) {
-            bmImage.setImageBitmap(result);
+            bmImageView.setImageBitmap(result);
         }
 
         @Override
