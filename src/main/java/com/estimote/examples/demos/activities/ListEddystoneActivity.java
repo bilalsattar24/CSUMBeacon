@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ListView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.estimote.examples.demos.R;
@@ -74,29 +74,35 @@ public class ListEddystoneActivity extends BaseActivity {
       public void onEddystonesFound(List<Eddystone> eddystones) {
         toolbar.setSubtitle("Found beacons with Eddystoned protocol: " + eddystones.size());
         adapter.replaceWith(eddystones);
-        System.out.println("Test123 " + eddystones.get(0).macAddress);
-
-        if (eddystones.get(0).macAddress.toString()!= null) {
-
-          System.out.println("Test123 TRUE" + eddystones.get(0).macAddress);
-          System.out.println("Test123" + eddystones.get(0).macAddress.toString());
-
-          Context context = getApplicationContext();
-
-          System.out.println("distance " + eddystones.get(0).rssi);
-
-          CharSequence text = "Beacon Found! Going to info Card!";
-          int duration = Toast.LENGTH_LONG;
-
-          Toast toast = Toast.makeText(context, text, duration);
-          toast.show();
+        if (!eddystones.isEmpty()) {
+          System.out.println("Test123 " + eddystones.get(0).macAddress);
 
 
-          goToActivity(eddystones.get(0).macAddress.toString());
+          if (eddystones.get(0).macAddress.toString() != null) {
 
-        } else {
-          System.out.println("Test123 FALSE" + eddystones.get(0).macAddress);
-          System.out.println("Test123" + eddystones.get(0).macAddress.toString());
+            System.out.println("Test123 TRUE" + eddystones.get(0).macAddress);
+            System.out.println("Test123" + eddystones.get(0).macAddress.toString());
+
+            Context context = getApplicationContext();
+
+            System.out.println("distance " + eddystones.get(0).rssi);
+
+            CharSequence text = "Beacon Found! Going to info Card!";
+            int duration = Toast.LENGTH_LONG;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+
+
+            goToActivity(eddystones.get(0).macAddress.toString());
+
+          } else {
+            System.out.println("Test123 FALSE" + eddystones.get(0).macAddress);
+            System.out.println("Test123" + eddystones.get(0).macAddress.toString());
+          }
+        }else{
+          ImageView status = (ImageView) findViewById(R.id.statusImg);
+          status.setImageResource(R.drawable.sad_otter);
         }
       }
     });

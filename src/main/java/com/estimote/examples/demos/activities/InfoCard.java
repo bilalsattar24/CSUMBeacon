@@ -65,7 +65,7 @@ public class InfoCard extends BaseActivity {
 
         ImageView img = (ImageView) findViewById(R.id.contextcard);
 
-        if(passedMac.equals("[FE:55:68:D6:08:36]")){
+        /*if(passedMac.equals("[FE:55:68:D6:08:36]")){
             img.setImageResource(R.drawable.bit);
             main.append(" PURP");
         }
@@ -78,8 +78,12 @@ public class InfoCard extends BaseActivity {
             main.append(" MINT");
         }
         else{//all others here
+
             System.out.println("Test123 Failed to change image");
-        }
+        }*/
+        Intent i = new Intent(getApplicationContext(),DisplayFromMacActivity.class);
+        i.putExtra("mac","F1:6C:09:05:AC:8E");
+        startActivity(i);
 
     }
 

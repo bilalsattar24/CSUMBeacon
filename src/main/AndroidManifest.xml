@@ -39,6 +39,10 @@
           android:label="displayImage"
           android:screenOrientation="portrait"/>
 
+      <activity android:name=".activities.DisplayFromMacActivity"
+                android:label="displayfromMac"
+                android:screenOrientation="portrait"/>
+
     <activity
         android:name=".activities.ListBeaconsActivity"
         android:label="Select Beacon"
