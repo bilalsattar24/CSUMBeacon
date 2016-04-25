@@ -37,9 +37,9 @@ public class DisplayFromMacActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.display_from_mac);
 
-        mac = "[F1:6C:09:05:AC:8E]"; //mac = savedInstanceState.getString("mac");
+        mac = getIntent().getExtras().getString("mac"); //mac = "[F1:6C:09:05:AC:8E]"; //mac = savedInstanceState.getString("mac");
         ImageView imageView = (ImageView) findViewById(R.id.macView);
-
+        //Log.d("Mac displayed",mac);
         DisplayCardTask task = new DisplayCardTask(getApplicationContext(),imageView);
         task.execute(mac);
     }
@@ -131,9 +131,7 @@ public class DisplayFromMacActivity extends AppCompatActivity{
             return bmp;
         }
 
-        protected void onPostExecute(Bitmap result) {
-            imageView.setImageBitmap(result);
-        }
+        protected void onPostExecute(Bitmap result) {imageView.setImageBitmap(result);}
     }
 }
 
