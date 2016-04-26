@@ -133,7 +133,7 @@ public class ListEddystoneActivity extends BaseActivity {
   }
 
   public void goToActivity(String mac){
-    Intent i = new Intent(this, InfoCard.class);
+    Intent i = new Intent(this, DisplayFromMacActivityContinuous.class);
     //Pass info to login
     Bundle extraInfo = new Bundle();
     //How many hour total

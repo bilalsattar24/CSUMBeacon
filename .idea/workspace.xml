@@ -10,62 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5808a6b2-a9e8-4796-9572-daaa60648d30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/DisplayFromMacActivityContinuous.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ConfigurableDevicesListActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ConfigurableDevicesListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/DistanceBeaconActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/DistanceBeaconActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/EddystoneDemoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/EddystoneDemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/adapters/EddystonesListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/adapters/EddystonesListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/InfoCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListBeaconsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListBeaconsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListEddystoneActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListNearablesActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/ListNearablesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/adapters/NearableListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/adapters/NearableListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/NearablesDemoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/NearablesDemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/NotifyDemoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/NotifyDemoActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/Ottours-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/Ottours-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/Ottours-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/Ottours-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$drawable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$integer.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$mipmap.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/SensorsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/SensorsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/UpdateDemoActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/estimote/examples/demos/activities/UpdateDemoActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/InfoCard.java" afterPath="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/InfoCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/estimote/examples/demos/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/estimote/examples/demos/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/mainactivity.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/mainactivity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/scanning.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/scanning.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListEddystoneActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListEddystoneActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ottours.iws" />
@@ -99,15 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisplayFromMacActivityContinuous.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DisplayFromMacActivityContinuous.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/DisplayFromMacActivityContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3703704">
-              <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+            <state vertical-scroll-proportion="-44.444443">
+              <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1685#1686#0" expanded="true" />
                 <element signature="e#1721#1722#0" expanded="true" />
+                <element signature="e#2909#4299#0" expanded="true" />
+                <element signature="e#4298#4299#0" expanded="true" />
                 <element signature="e#4333#4520#0" expanded="true" />
                 <element signature="e#4519#4520#0" expanded="true" />
               </folding>
@@ -125,25 +80,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListEddystoneActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListEddystoneActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListEddystoneActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="60" selection-end-column="3" />
+            <state vertical-scroll-proportion="1.5057915">
+              <caret line="135" column="64" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/InfoCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
-              <folding>
-                <element signature="e#1312#1313#0" expanded="true" />
-                <element signature="e#1348#1349#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -934,6 +876,7 @@
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/DisplayFromMacActivityContinuous.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListEddystoneActivity.java" />
       </list>
     </option>
   </component>
@@ -1373,14 +1316,14 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.4560205" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28460342" sideWeight="0.8455285" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55365473" sideWeight="0.8455285" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.49017933" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2483108" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37423846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.62823355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32659408" sideWeight="0.62823355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1451,9 +1394,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/DisplayFromMacActivityContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-44.444443">
+          <caret line="102" column="46" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#2909#4299#0" expanded="true" />
+            <element signature="e#4298#4299#0" expanded="true" />
+            <element signature="e#4333#4520#0" expanded="true" />
+            <element signature="e#4519#4520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/InfoCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.1041666">
           <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
           <folding>
             <element signature="e#1312#1313#0" expanded="true" />
@@ -1462,25 +1421,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListEddystoneActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListBeaconsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="60" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="-1.8814815">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/DisplayFromMacActivityContinuous.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/estimote/examples/demos/activities/ListEddystoneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3703704">
-          <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#4333#4520#0" expanded="true" />
-            <element signature="e#4519#4520#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.5057915">
+          <caret line="135" column="64" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
