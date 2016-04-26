@@ -69,7 +69,7 @@ public class InfoCard extends BaseActivity {
             //img.setImageResource(R.drawable.bit);
             //main.append(" PURP");
             Bundle bundle = new Bundle();
-            Intent i = new Intent(getApplicationContext(),DisplayFromMacActivity.class);
+            Intent i = new Intent(getApplicationContext(),DisplayFromMacActivityContinuous.class);
             bundle.putString("mac","[FE:55:68:D6:08:36]");
             i.putExtras(bundle);
             startActivity(i);
@@ -79,7 +79,7 @@ public class InfoCard extends BaseActivity {
             //img.setImageResource(R.drawable.dc);
             //main.append(" BABY BLUE");
             Bundle bundle = new Bundle();
-            Intent i = new Intent(getApplicationContext(),DisplayFromMacActivity.class);
+            Intent i = new Intent(getApplicationContext(),DisplayFromMacActivityContinuous.class);
             bundle.putString("mac","[F1:6C:09:05:AC:8E]");
             i.putExtras(bundle);
             startActivity(i);
@@ -89,7 +89,7 @@ public class InfoCard extends BaseActivity {
             //img.setImageResource(R.drawable.sports);
             //main.append(" MINT");
             Bundle bundle = new Bundle();
-            Intent i = new Intent(getApplicationContext(),DisplayFromMacActivity.class);
+            Intent i = new Intent(getApplicationContext(),DisplayFromMacActivityContinuous.class);
             bundle.putString("mac","[F7:E2:16:76:24:59]");
             i.putExtras(bundle);
             startActivity(i);

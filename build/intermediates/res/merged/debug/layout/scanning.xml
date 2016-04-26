@@ -10,5 +10,6 @@
         android:src="@drawable/scanning"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="141dp" />
+        android:layout_marginTop="141dp"
+        android:id="@+id/statusImg" />
 </RelativeLayout><!-- From: file:/Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/res/layout/scanning.xml -->

@@ -3,6 +3,11 @@
     package="com.estimote.examples.demos"
     android:versionCode="1"
     android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
     <!--
   You do not longer need to declare those permissions. Since SDK declares them,
   there is no need for you to add those since SDK's AndroidManifest.xml will be merged
@@ -13,9 +18,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
   <uses-permission android:name="android.permission.INTERNET"/>
     -->
-    <uses-sdk
-        android:minSdkVersion="18"
-        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Declaration that this app is usable on phones with Bluetooth Low Energy. -->
     <uses-feature
@@ -25,8 +28,8 @@
     <!-- Needed for Bluetooth low energy scanning. -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- Needed for Bluetooth scanning on Android M and above. -->
-    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed for Estimote Cloud. -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -43,6 +46,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.estimote.examples.demos.activities.DisplayCardActivity"
+            android:label="displayImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.DisplayFromMacActivity"
+            android:label="displayfromMac"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.estimote.examples.demos.activities.ListBeaconsActivity"
             android:label="Select Beacon"
@@ -94,6 +105,10 @@
         <activity
             android:name="com.estimote.examples.demos.activities.InfoCard"
             android:label="Info Card"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.estimote.examples.demos.activities.DisplayFromMacActivityContinuous"
+            android:label="Display with continuous search Card"
             android:screenOrientation="portrait" />
         <!--
     There is no need any longer to declare BeaconService. It is declared in SDK's AndroidManifest.xml
