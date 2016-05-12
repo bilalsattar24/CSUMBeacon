@@ -23,7 +23,8 @@
   <application
       android:name=".DemosApplication"
       android:label="Ottours"
-      android:theme="@style/EstimoteTheme">
+      android:theme="@style/EstimoteTheme"
+      android:icon="@drawable/ottouricon">
 
     <activity
         android:name=".activities.MainActivity"

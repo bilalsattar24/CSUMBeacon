@@ -90,8 +90,8 @@ public class ListEddystoneActivity extends BaseActivity {
             CharSequence text = "Beacon Found! Going to info Card!";
             int duration = Toast.LENGTH_LONG;
 
-            Toast toast = Toast.makeText(context, text, duration);
-            toast.show();
+            //Toast toast = Toast.makeText(context, text, duration);
+            //toast.show();
 
 
             goToActivity(eddystones.get(0).macAddress.toString());

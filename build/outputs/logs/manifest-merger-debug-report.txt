@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:2:1-113:12
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:2:1-114:12
 	package
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:3:11-48
 	android:versionName
@@ -35,162 +35,164 @@ MERGED from [:estimote-sdk:] /Users/michaelsarmiento/Documents/Android-SDK/Ottou
 	android:name
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:21:17-61
 application
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:23:3-111:17
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:23:3-112:17
 MERGED from [:estimote-sdk:] /Users/michaelsarmiento/Documents/Android-SDK/Ottours/build/intermediates/exploded-aar/estimote-sdk/AndroidManifest.xml:22:5-37:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/michaelsarmiento/Documents/Android-SDK/Ottours/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Users/michaelsarmiento/Documents/Android-SDK/Ottours/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:25:7-30
+	android:icon
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:27:7-42
 	android:theme
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:26:7-43
 	android:name
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:24:7-39
 activity#com.estimote.examples.demos.activities.MainActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:28:5-36:16
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:29:5-37:16
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:31:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:32:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:30:9-32
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:31:9-32
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:29:9-48
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:30:9-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:32:7-35:23
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:33:7-36:23
 action#android.intent.action.MAIN
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:33:9-60
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:34:9-60
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:33:17-58
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:34:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:34:9-68
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:35:9-68
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:34:19-66
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:35:19-66
 activity#com.estimote.examples.demos.activities.DisplayCardActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:38:7-40:49
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:39:7-41:49
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:40:11-47
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:41:11-47
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:39:11-39
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:40:11-39
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:38:17-63
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:39:17-63
 activity#com.estimote.examples.demos.activities.DisplayFromMacActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:42:7-44:55
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:43:7-45:55
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:44:17-53
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:45:17-53
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:43:17-47
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:44:17-47
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:42:17-66
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:43:17-66
 activity#com.estimote.examples.demos.activities.ListBeaconsActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:46:5-49:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:47:5-50:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:49:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:50:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:48:9-38
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:49:9-38
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:47:9-55
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:48:9-55
 activity#com.estimote.examples.demos.activities.ListEddystoneActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:51:5-54:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:52:5-55:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:54:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:55:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:53:9-41
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:54:9-41
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:52:9-57
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:53:9-57
 activity#com.estimote.examples.demos.activities.ListNearablesActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:56:5-59:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:57:5-60:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:59:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:60:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:58:9-38
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:59:9-38
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:57:9-57
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:58:9-57
 activity#com.estimote.examples.demos.activities.DistanceBeaconActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:61:5-63:53
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:62:5-64:53
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:63:15-51
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:64:15-51
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:62:15-44
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:63:15-44
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:61:15-64
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:62:15-64
 activity#com.estimote.examples.demos.activities.NotifyDemoActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:65:5-67:53
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:66:5-68:53
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:67:15-51
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:68:15-51
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:66:15-42
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:67:15-42
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:65:15-60
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:66:15-60
 activity#com.estimote.examples.demos.activities.CharacteristicsDemoActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:69:5-71:53
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:70:5-72:53
 	android:screenOrientation
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:72:15-51
+	android:label
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:71:15-51
-	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:70:15-51
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:69:15-69
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:70:15-69
 activity#com.estimote.examples.demos.activities.UpdateDemoActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:73:5-75:53
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:74:5-76:53
 	android:screenOrientation
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:76:15-51
+	android:label
 		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:75:15-51
-	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:74:15-51
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:73:15-60
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:74:15-60
 activity#com.estimote.examples.demos.activities.EddystoneDemoActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:77:5-79:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:78:5-80:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:79:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:80:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:78:9-39
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:79:9-39
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:77:15-63
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:78:15-63
 activity#com.estimote.examples.demos.activities.NearablesDemoActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:81:5-83:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:82:5-84:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:83:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:84:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:82:9-39
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:83:9-39
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:81:15-63
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:82:15-63
 activity#com.estimote.examples.demos.activities.SensorsActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:85:5-87:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:86:5-88:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:87:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:88:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:86:9-37
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:87:9-37
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:85:15-57
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:86:15-57
 activity#com.estimote.examples.demos.activities.ConfigurableDevicesListActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:89:5-91:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:90:5-92:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:91:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:92:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:90:9-50
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:91:9-50
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:89:15-73
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:90:15-73
 activity#com.estimote.examples.demos.activities.ConfigureDeviceActivity
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:93:5-95:47
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:94:5-96:47
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:95:9-45
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:96:9-45
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:94:9-46
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:95:9-46
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:93:15-65
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:94:15-65
 activity#com.estimote.examples.demos.activities.InfoCard
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:97:7-99:49
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:98:7-100:49
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:99:11-47
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:100:11-47
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:98:11-36
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:99:11-36
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:97:17-52
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:98:17-52
 activity#com.estimote.examples.demos.activities.DisplayFromMacActivityContinuous
-ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:101:7-103:49
+ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:102:7-104:49
 	android:screenOrientation
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:103:11-47
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:104:11-47
 	android:label
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:102:11-62
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:103:11-62
 	android:name
-		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:101:17-76
+		ADDED from /Users/michaelsarmiento/Documents/Android-SDK/Ottours/src/main/AndroidManifest.xml:102:17-76
 uses-permission#android.permission.BLUETOOTH
 ADDED from [:estimote-sdk:] /Users/michaelsarmiento/Documents/Android-SDK/Ottours/build/intermediates/exploded-aar/estimote-sdk/AndroidManifest.xml:10:5-68
 	android:name

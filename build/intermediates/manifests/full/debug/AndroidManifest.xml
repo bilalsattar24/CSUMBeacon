@@ -34,6 +34,7 @@
 
     <application
         android:name="com.estimote.examples.demos.DemosApplication"
+        android:icon="@drawable/ottouricon"
         android:label="Ottours"
         android:theme="@style/EstimoteTheme" >
         <activity
